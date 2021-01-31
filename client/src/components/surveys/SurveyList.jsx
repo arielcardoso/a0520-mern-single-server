@@ -23,8 +23,8 @@ const SurveyList = ({ surveyList, fetchSurvey }) => {
                     <p>Sent on: {new Date(survey.dateSent).toLocaleDateString()}</p>
                 </div>
                 <div className="card-action">
-                    <a>Yes: {survey.yes}</a>
-                    <a>No: {survey.no}</a>
+                    <a href="#" >Yes: {survey.yes}</a>
+                    <a href="#" >No: {survey.no}</a>
                 </div>
             </div>
           ))}
